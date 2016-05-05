@@ -49,6 +49,7 @@ public class MPHInteractableManager : MonoBehaviour
                 if (coll.OverlapPoint(position))
                 {
                     current.Touched();
+                    return;
                 }
             }
         }
